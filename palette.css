@@ -1,0 +1,50 @@
+/* Brolių užeiga: muted olive, warm white and graphite. */
+body.restaurant{--dark:#26312d;--accent:#b5c19c;--accent-ink:#26312d;--paper:#fafbf7;--ink:#29332e;background:var(--paper);color:var(--ink)}
+body.restaurant .hero,body.restaurant .hero-images{background:#26312d}
+body.restaurant .hero-shade{background:linear-gradient(90deg,#202c27f5 0%,#202c27d9 38%,#202c2755 70%,#202c2722),linear-gradient(0deg,#202c27d9,transparent 50%)}
+body.restaurant .hero h1 em{color:#c8d4b3}
+body.restaurant .hero-address{color:#e0e5db}
+body.restaurant .hero .pill{background:#b5c19c;border-color:#b5c19c;color:#26312d}
+body.restaurant .hero .pill.wolt{background:#009de0;border-color:#009de0;color:white}
+body.restaurant .hero .pill.wolt:hover{background:#0085bd;border-color:#0085bd;color:white}
+body.restaurant .marquee{background:#dfe5d5;color:#29332e}
+body.restaurant .story-text{border-color:#29332e30}
+body.restaurant .story-text p{color:#4e5a51}
+body.restaurant .story-visual .photo{background:#e5e9e0}
+body.restaurant .experience,body.restaurant #galerija{background:#edf0e7;color:#29332e}
+body.restaurant .tiflis-heading h2,body.restaurant .tiflis-heading .eyebrow{color:#29332e}
+body.restaurant .tiflis-heading h2 em{color:#56694b}
+body.restaurant .icon-btn{border-color:#64735c80;color:#34432e}
+body.restaurant .icon-btn:hover{background:#526447;color:#fff}
+body.restaurant .rail{scrollbar-color:#7e8e70 #dfe5d5}
+body.restaurant .rail>.photo{background:#dfe5d5}
+body.restaurant footer.ref-footer{--footer-bg:#26312d;--footer-accent:#c8d4b3;background:var(--footer-bg);color:#f7f9f2}
+body.restaurant .ref-footer .rf-title,body.restaurant .ref-footer .rf-row,body.restaurant .ref-footer .rf-brand{color:#f7f9f2}
+body.restaurant .ref-footer .rf-row small,body.restaurant .ref-footer .rf-row svg,body.restaurant .ref-footer .rf-bottom{color:#c8d1c4}
+body.restaurant .ref-footer .rf-row:hover{color:#d5e2c0}
+body.restaurant .ref-footer .rf-button{border-color:#c8d4b3;color:#f7f9f2}
+body.restaurant .ref-footer .rf-primary{color:#26312d;background:#c8d4b3}
+body.restaurant .lightbox::backdrop{background:#17201bed}
+body.restaurant .lightbox>button{background:#fafbf7;color:#26312d}
+@media(max-width:780px){body.restaurant .hero-shade{background:linear-gradient(180deg,#202c2750,#202c2740 160px,#202c27e8 390px,#202c27 570px)}}
+
+/* Explicit strip text contrast on the pale olive background. */
+body[data-slug="broliu-uzeiga"] .marquee .marquee-track :is(.strip-name,.strip-tag,.strip-description,.strip-city){color:#29332e}
+body[data-slug="broliu-uzeiga"] .marquee .marquee-track .strip-city{border-color:#29332e40}
+body[data-slug="broliu-uzeiga"] .ref-footer .rf-facebook svg{color:#8eb8ff}
+
+body[data-slug="broliu-uzeiga"] .marquee .marquee-track{display:flex;justify-content:flex-start;text-align:left}
+body[data-slug="broliu-uzeiga"] .marquee .strip-description{flex:0 1 auto;max-width:100%;font-size:clamp(18px,2vw,26px);line-height:1.45}
+
+body[data-slug="broliu-uzeiga"] .story-visual{display:flex;justify-content:center}
+body[data-slug="broliu-uzeiga"] .story-visual .photo{width:min(100%,360px);height:auto;aspect-ratio:1;max-height:none;border-radius:18px;overflow:hidden}
+body[data-slug="broliu-uzeiga"] .story-visual img{object-fit:contain}
+@media(max-width:780px){body[data-slug="broliu-uzeiga"] .story-visual .photo{width:min(82%,300px)}}
+
+body[data-slug="broliu-uzeiga"] .hero-slide{inset:0;height:100%}
+body[data-slug="broliu-uzeiga"] .hero-slide img,body[data-slug="broliu-uzeiga"] .hero-slide.active img{width:100%;height:100%;object-fit:cover;object-position:center;transform:none}
+body[data-slug="broliu-uzeiga"] .hero-images:before{display:none}
+body[data-slug="broliu-uzeiga"] .hero-shade{background:linear-gradient(180deg,rgba(16,27,21,.86) 0%,rgba(16,27,21,.12) 28%,rgba(16,27,21,.32) 100%),linear-gradient(90deg,rgba(26,40,31,.94) 0%,rgba(26,40,31,.78) 32%,rgba(26,40,31,.15) 76%)}
+body[data-slug="broliu-uzeiga"] .site-header nav a{color:#fff;font-weight:600;font-size:16px;text-shadow:0 1px 5px #102015}
+body[data-slug="broliu-uzeiga"] .marquee .marquee-track{width:min(1440px,calc(100% - 96px))}
+@media(max-width:780px){body[data-slug="broliu-uzeiga"] .marquee .marquee-track{width:calc(100% - 40px)}body[data-slug="broliu-uzeiga"] .hero-shade{background:linear-gradient(180deg,rgba(16,27,21,.8),rgba(16,27,21,.22) 25%,rgba(16,27,21,.88) 65%,rgba(16,27,21,.96))}}

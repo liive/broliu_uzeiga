@@ -1,0 +1,47 @@
+{
+  "slug": "broliu-uzeiga",
+  "name": "Brolių užeiga",
+  "city": "Vilnius",
+  "address": "Šeškinės g. 26, Vilnius",
+  "phone": "+37060334796",
+  "facebook": "https://www.facebook.com/61556796462821/",
+  "instagram": "",
+  "wolt": "https://wolt.com/lt/ltu/vilnius/restaurant/broliu-uzeiga",
+  "menu": "https://wolt.com/lt/ltu/vilnius/restaurant/broliu-uzeiga",
+  "lunch": "https://wolt.com/lt/ltu/vilnius/restaurant/broliu-uzeiga",
+  "reservation": "",
+  "cuisine": "Lietuviška ir europietiška virtuvė",
+  "description": "Pažįstami lietuviški skoniai Šeškinėje. Nuo sriubos iki sočių pietų ir užkandžių - pasirinkite pagal savo apetitą.",
+  "sources": [
+    "https://wolt.com/lt/ltu/vilnius/restaurant/broliu-uzeiga",
+    "https://wolt.com/en/ltu/vilnius/restaurant/broliu-uzeiga"
+  ],
+  "photos": [
+    {
+      "path": "/workspace/sites/restaurant-batch6/dist/broliu-uzeiga/assets/food-01.webp",
+      "source": "https://imageproxy.wolt.com/assets/67344f254d6df41fd765a13a",
+      "alt": "Brolių užeigos patiekalų stalas"
+    },
+    {
+      "path": "/workspace/sites/restaurant-batch6/dist/broliu-uzeiga/assets/food-02.webp",
+      "source": "https://imageproxy.wolt.com/assets/67344f5d66b0360b8a4bf728",
+      "alt": "Kepta duona su sūrio padažu"
+    },
+    {
+      "path": "/workspace/sites/restaurant-batch6/dist/broliu-uzeiga/assets/food-03.webp",
+      "source": "https://imageproxy.wolt.com/assets/67344f5c66b0360b8a4bf723",
+      "alt": "Čili sriuba"
+    }
+  ],
+  "notes": "English Wolt snapshot lists day lunch; Lithuanian current page shows soups and snacks. Use menu link; no fixed items/prices for daily lunch. No verified Facebook/Instagram found.",
+  "story_title": "Užsukite į Šeškinę",
+  "story": "Brolių užeigą rasite Šeškinės gatvėje, 26 numeriu pažymėtame pastate. Patiekalus galima rinktis ir užsisakyti internetu per Wolt.",
+  "image_edits": [
+    {
+      "file": "assets/food-02-retouch.webp",
+      "original": "assets/food-02.webp",
+      "method": "ImageGen",
+      "description": "Natural warmer light, crisp rye texture and cleaner cheese presentation; same dish."
+    }
+  ]
+}
